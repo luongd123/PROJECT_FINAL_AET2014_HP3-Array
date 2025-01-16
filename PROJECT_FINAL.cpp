@@ -189,7 +189,7 @@ void Display_list(Student LS[], int NumberOfStudent){
 // Hàm này hiển thị thông tin về các sinh viên có điểm trung bình cao nhất trong danh sách.
 void Display_highest_grade(Student LS[], int NumberOfStudent){
     
-    Student HLS[100000];
+    Student HLS[10000];
     int S_high = 0;
     cout << " List of students with the highest average score : \n";
     
@@ -221,7 +221,7 @@ void Display_highest_grade(Student LS[], int NumberOfStudent){
 // Hàm này hiển thị thông tin về các sinh viên có điểm trung bình thấp nhất trong danh sách.
 void Display_lowest_grade(Student LS[], int NumberOfStudent){
     
-    Student LLS[100000];
+    Student LLS[10000];
     int S_low = 0;
     cout << " List of students with the lowest average score : \n";
     
